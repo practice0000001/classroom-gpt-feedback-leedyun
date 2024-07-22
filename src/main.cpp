@@ -29,7 +29,7 @@ int main() {
             if (num2 != 0) {
                 result = calc.divide(num1, num2);
             } else {
-                std::cerr << "Error: Division by zero!" << std::endl;
+                std::cerr << "Error: Division by zero!!" << std::endl;
                 success = false;
             }
             break;
